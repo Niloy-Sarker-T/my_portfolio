@@ -1,0 +1,87 @@
+Complete Portfolio Website Roadmap for Niloy Sarker
+Theme: Sophisticated Dark Futuristic AI (Premium & Clean)
+
+Deep navy background (#0A0F1C) with subtle gradient
+Electric cyan accents (#00E5FF) used sparingly
+Clean glassmorphic cards, generous whitespace, elegant typography
+Only tasteful micro-animations (smooth fades, line draws, gentle hover lifts) — nothing garish or flashy
+
+Tech Stack
+
+Next.js 15 (App Router) + TypeScript
+Tailwind CSS
+Framer Motion (for all animations)
+Lenis (smooth scrolling)
+Shadcn/ui + custom components
+Deploy on Vercel
+
+Full Sections to Build
+
+Hero
+Large elegant name with subtle typing animation
+Tagline: “AI Engineer | Production RAG & Multimodal Systems”
+Short bio line + “Currently building” status (thesis work)
+Two clean CTAs: “Explore Projects” + “Download CV”
+
+About
+Short paragraph highlighting SUST CSE, RoboSUST leadership, and passion for building production-ready Bangla AI systems
+
+Interactive Themed CV (Star Feature)
+Vertical timeline with elegant self-drawing line on scroll
+Each milestone expands on click showing:
+Impact metric
+Tech stack pills (glow only on hover)
+Project link
+
+Animated skills section (circular progress rings)
+One-click “Download Fancy PDF CV” button
+
+Featured Projects
+Clean grid of 6 cards (hover lift effect)
+PaperSense (RAG system)
+HackMatch (FastAPI platform)
+Bangla Tabular OCR & Sign Language Recognition (thesis demo)
+Fraud Detection Pipeline
+Waste Management System
+Another strong ML project
+Each card includes live demo link, GitHub, and tech tags
+
+Research & Publications
+IEEE paper + ongoing thesis highlights with clean cards
+
+Achievements
+Datathon wins, rankings, RoboSUST leadership roles
+
+Contact
+Simple form + social links (LinkedIn, GitHub, Email)
+
+
+Step-by-Step Build Plan
+Step 1: Project Setup
+Run the command to create the Next.js app, install Framer Motion, Lenis, Shadcn/ui, and Lucide icons.
+Step 2: Global Styles & Theme
+Set up Tailwind with the dark navy + cyan color palette, custom fonts (Inter + Space Grotesk), and global glassmorphic styles.
+Step 3: Navigation & Hero
+Build responsive navbar (shrinks on scroll) and the animated hero section.
+Step 4: Interactive CV Timeline
+Create the vertical timeline component with Framer Motion scroll animations and expandable cards.
+Step 5: Projects & Research Sections
+Build the project grid with hover effects and individual project detail modals if needed.
+Step 6: About, Achievements & Contact
+Add the remaining sections with smooth scroll-triggered animations.
+Step 7: Polish & Optimizations
+
+Make everything fully responsive
+Add Lenis smooth scroll
+Implement SEO metadata
+Add dark/light mode toggle (default dark)
+Test performance and final animations
+Deploy to Vercel with custom domain
+
+Animation Guidelines (to keep it premium & non-garish)
+
+All animations: 0.6–0.8s duration, gentle ease
+Only fade, slide-up, and line-draw effects
+No bouncing, rotating, or excessive particles
+make it interactive too, i will be giving it to a company cant make it look noob or begineer version
+this is the plan and if any portion of my cv gets missed add that too
